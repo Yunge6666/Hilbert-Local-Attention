@@ -1,5 +1,5 @@
-# HILBERT-GUIDED BLOCK-SPARSE LOCAL ATTENTION
-
+# Overview📑 
+### HILBERT-GUIDED BLOCK-SPARSE LOCAL ATTENTION     [<ins>Arkiv<ins>](https://arxiv.org/abs/2511.05832) 
 This work proposes a novel method for constructing windows and neighborhoods based on the Hilbert curve. Image tokens are first reordered along a Hilbert curve, and windows and neighborhoods are then formed on the reordered 1D sequence. From a block-sparse perspective, this strategy significantly increases block sparsity and can be combined with existing block-sparse kernels to improve the efficiency of 2D local attention.
 
 ![Hilbert Local Attention Patterns](hilbertlocal.png "Hilbert local attention vs. Regular local attention")
@@ -8,7 +8,7 @@ Experiments show that the proposed Hilbert Window Attention and Hilbert Slide At
 
 ---
 
-# Usage
+# Usage🛠️
 
 Pytorch version should be >= 2.7.0!
 
@@ -24,7 +24,7 @@ Pretrained weighs for HNT-mini and HWT-tiny are listed below:
 
 ---
 
-# Acknowledgement
+# Acknowledgement🤝
 
 We sincerely thank the following outstanding works for providing the foundation upon which our code is built.
 
