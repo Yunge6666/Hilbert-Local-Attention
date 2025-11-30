@@ -16,11 +16,12 @@ Pytorch version should be >= 2.7.0!
 
 Pretrained weights are listed below:
 
-| Image resolution | Model    | Top-1 Acc % | Top-5 Acc % | Checkpoint                                                                                        |
-| ---------------- | -------- | ----------- | ----------- | ------------------------------------------------------------------------------------------------- |
-| 224*224          | HWT-tiny | 81.0        | 95.5        | [GoogleDrive](https://drive.google.com/file/d/1utPyBWCc-wKIg7GMdLuvB940Zw2_2BKx/view?usp=drive_link) |
-| 256*256          | HWT-tiny | 81.5        | 95.7        | [GoogleDrive](https://drive.google.com/file/d/1WYLXTQNh9d27EJ_fBZaq1a2Nq0ltv_A-/view?usp=drive_link) |
-| 224*224          | HNT-mini | 81.6        | 95.6        | [GoogleDrive](https://drive.google.com/file/d/1HrUmo-Tsk7J5bq2KBtdzw1cXzlZuvS_V/view?usp=sharing) |
+| Image resolution | Model    | Flops | Top-1 Acc % | Top-5 Acc % | Checkpoint                                                                                        |
+| ---------------- | -------- | ----- | ----------- | ----------- | ------------------------------------------------------------------------------------------------- |
+| 224*224          | HWT-tiny | 4.5G  | 81.0        | 95.5        | [GoogleDrive](https://drive.google.com/file/d/1utPyBWCc-wKIg7GMdLuvB940Zw2_2BKx/view?usp=drive_link) |
+| 256*256          | HWT-tiny | 5.9G  | 81.5        | 95.7        | [GoogleDrive](https://drive.google.com/file/d/1WYLXTQNh9d27EJ_fBZaq1a2Nq0ltv_A-/view?usp=drive_link) |
+| 224*224          | HNT-mini | 2.7G  | 81.6        | 95.6        | [GoogleDrive](https://drive.google.com/file/d/1HrUmo-Tsk7J5bq2KBtdzw1cXzlZuvS_V/view?usp=sharing) |
+| 224*224          | HNT-tiny | 4.3G  | 82.5        | 96.1        | [GoogleDrive](https://drive.google.com/file/d/1j-JlRj4D9gqx1lMyBp5sB8nThS7LCykS/view?usp=sharing) |
 
 More pretrained weights are on the way...
 
@@ -33,3 +34,7 @@ We sincerely thank the following outstanding works for providing the foundation 
 * [FlexAttention](https://github.com/meta-pytorch/attention-gym)
 * [Swin transformer](https://github.com/microsoft/Swin-Transformer)
 * [NAT](https://github.com/SHI-Labs/Neighborhood-Attention-Transformer)
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
